@@ -1,0 +1,15 @@
+@keyframes toastProgressAnimation {
+  from { transform: scaleX(1); }
+  to { transform: scaleX(0); }
+}
+
+.animate-toast-progress {
+  animation-name: toastProgressAnimation;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+input[type="password"]::-ms-reveal,
+        input[type="password"]::-ms-clear {
+            display: none !important;
+        }
